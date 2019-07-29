@@ -1,0 +1,138 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "NewWheel",
+            "rotation" : [
+                0,
+                0,
+                -0.7071067690849304,
+                0.7071067690849304
+            ],
+            "scale" : [
+                0.348999559879303,
+                0.16445229947566986,
+                0.348999559879303
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "wheelM",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "NewWheel",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "texture1",
+            "uri" : "texture1.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 40,
+            "max" : [
+                0.9510564804077148,
+                1,
+                1
+            ],
+            "min" : [
+                -0.9510564804077148,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 60,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 480
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 320,
+            "byteOffset" : 960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 120,
+            "byteOffset" : 1280
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1400,
+            "uri" : "slotMachineWheel_1.bin"
+        }
+    ]
+}

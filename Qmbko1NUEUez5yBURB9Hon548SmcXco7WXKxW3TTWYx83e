@@ -1,0 +1,41 @@
+{
+  "display": {
+    "title": "decentral-games-casino",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "steve",
+    "email": "steve@decentral.games"
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "0,0",
+      "0,1",
+      "1,1",
+      "1,0",
+      "0,2",
+      "1,2",
+      "2,2",
+      "0,3",
+      "0,4",
+      "0,5",
+      "0,6",
+      "0,7"
+    ],
+    "base": "2,2"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "main": "bin/game.js",
+  "tags": []
+}
