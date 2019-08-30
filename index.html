@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <title>Decentraland Preview</title>
+    <title>decentral-games-casino</title>
     <style>
       html,
       body {
@@ -115,20 +115,9 @@
     </div>
     <div id="gameContainer"></div>
     <script>
-      const ws = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${document.location.host}`)
-
-      ws.addEventListener('message', msg => {
-        console.log('Sending new message to engine.', msg.data)
-        if (msg.data === 'update') {
-          handleServerMessage({
-            type: 'update'
-          })
-        } else if (msg.data.startsWith('{')) {
-          handleServerMessage(JSON.parse(msg.data))
-        }
-      })
+      window['staticWorld'] = true
     </script>
   </body>
-  <script src="/@/artifacts/unity/Build/DCLUnityLoader.js"></script>
-  <script defer async src="/@/artifacts/preview.js"></script>
+  <script src="/unity/Build/DCLUnityLoader.js"></script>
+  <script defer async src="/preview.js"></script>
 </html>
